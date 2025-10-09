@@ -3,6 +3,10 @@ Saeptum Crypt (Latin for "Secured Enclosure/Vault") is an advanced, multi-algori
 
 This application provides a graphical user interface (GUI) built with CustomTkinter for ease of use.
 
+## Application Preview
+
+![Saeptum Crypt GUI running on Windows](saeptum_gui_preview.png)
+
 🔒 Key Security Features
 Multi-Algorithm Support: Encrypt files using modern, secure algorithms: AES-256-GCM, ChaCha20-Poly1305, and AES-256-CBC + HMAC-SHA256.
 
