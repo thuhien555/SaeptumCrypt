@@ -41,18 +41,21 @@ Execute the main GUI script from your terminal:
 Bash
 
 python saeptum_gui.py
+
 🛠️ Usage Instructions
+
 Operation Mode: Select Encrypt or Decrypt.
 
 Input/Output: Select the source file/folder and the destination path.
 
-Key/Password Source: Choose between Password (recommended) or Key File.
+Key/Password Source: Choose Password or Key File.
 
-Device Binding (Encryption Only): Check the box to enable hardware locking.
+Device Binding: Check the box to enable hardware locking.
 
 Warning: If enabled, the file must be decrypted on the same computer.
 
 Start Operation: Click START OPERATION. The application will handle the entire process, including key derivation, progress tracking, and secure I/O.
 
 🤝 Integrity Verification (For Source Code)
+
 To verify the integrity of the downloaded source files, you can generate a SHA256 hash of the core cryptographic module (saeptum_core.py) on your system and compare it against the checksum provided in the repository's main release page.
