@@ -1,0 +1,11 @@
+# Dependencies for Saeptum Crypt
+
+# 1. CustomTkinter: The custom graphical user interface framework
+customtkinter
+
+# 2. Cryptography: The essential library for all key derivation, 
+# encryption (AES, ChaCha20), and authentication (HMAC) primitives.
+cryptography
+
+# Note: Libraries like uuid, platform, os, shutil, and hashlib are part of 
+# Python's standard library and do not need to be listed here.

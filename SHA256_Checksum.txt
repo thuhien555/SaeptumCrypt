@@ -1,0 +1,9 @@
+# Saeptum Crypt Source Code Integrity Check
+# Generated on: [10 October, 2025]
+
+saeptum_gui.py: 2C5FB6AB6F5F2A39E24ADD98805F3FD26A2574A2D02977FE191B682B3E0650B7
+
+saeptum_core.py: 335EC44BFB57AEF2C25FFF034CCC18D067D822AE06C7F79C92089778997D6F6B
+
+# Instructions: Users must generate the SHA256 hash of their downloaded files 
+# and compare them exactly to the hashes above to verify file integrity.
