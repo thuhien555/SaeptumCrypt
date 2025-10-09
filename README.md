@@ -1,6 +1,8 @@
 Saeptum Crypt
 Saeptum Crypt (Latin for "Secured Enclosure/Vault") is an advanced, multi-algorithm file encryption utility designed for robust data protection. It features strong password-based key derivation (PBKDF2) and unique, proprietary Device Binding to lock files to a specific machine.
 
+**Declaration:** This entire application, Saeptum Crypt, including all the Python logic and the secure cryptographic architecture, was 100% written and developed with the assistance of the Google Gemini AI model.
+
 This application provides a graphical user interface (GUI) built with CustomTkinter for ease of use.
 
 ## Application Preview
