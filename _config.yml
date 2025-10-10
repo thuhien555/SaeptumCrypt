@@ -1,0 +1,9 @@
+# Saeptum Crypt GitHub Pages Configuration
+remote_theme: pages-themes/cayman@v0.2.0
+
+# General Site Settings
+title: Saeptum Crypt
+description: Secure, multi-algorithm file encryption utility with Device Binding and key management.
+
+# Optional: Add any exclusion patterns if needed
+# exclude: ["vendor", "assets"]
